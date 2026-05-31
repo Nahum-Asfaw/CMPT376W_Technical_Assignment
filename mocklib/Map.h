@@ -20,10 +20,18 @@ Include functionality for:
 - Constructing a data structure from a GPX file
 
 What else should I have?
-- Return what continent, ocean a point lies on, 'horizontal Map.get
-- Return the nearest 
+- Return what continent, ocean a point lies on,
+- Get/ return area of a collection of 2D points
+- test if a reference point is within an area
+- write + return a GPX file given coords (needs to get current time) of a given filename
+- given coords lookup point on google maps
+- 
 
-REFERENCES: 
+REFERENCES/AKNOWLEDGEMENTS: 
 - https://stackoverflow.com/questions/21015039/how-to-read-gpx-file-xml-format-in-qt
-- https://github.com/irdvo/gpxlib
+- https://github.com/irdvo/gpxlib -> This is a dependency
+- 
+
+REALLY NEED TO ASK ON MOND WHAT THE SCOPE OF THIS ASSIGNMENT IS!!!
+DO 307 FOR REST OF DAY, CONTINUE ON MOND WITH THIS
 */
