@@ -1,0 +1,9 @@
+site_name: mocklib
+nav:
+- Home: home.md
+- References: references.md
+- Acknowledgements: acknowledgements.md
+
+theme:
+  name: null
+  custom_dir: 'cinder'
