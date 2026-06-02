@@ -7,6 +7,7 @@ using namespace std;
 Assignment suggests:
 - Compare distance, eg., 'int Map.get_distance(horizontal k1, horizontal k2)', and 
 'Globe.get_distance(geodetic k1, geodetic k2)', to also return differences in elevation
+'Globe.get_elevation(geodetic k1, geodetic k2)'
 - For comparing points (wikipedia vs points inside canada),  
 example 'int Map.value_compare(horizontal k1, horizontal k2)',
 & 'int Globe.value_compare(geodetic k1, geodetic k2)'.
@@ -21,17 +22,19 @@ Include functionality for:
 
 What else should I have?
 - Return what continent, ocean a point lies on,
-- Get/ return area of a collection of 2D points
+- Get/ return area of a collection of 2D points, being an array
 - test if a reference point is within an area
 - write + return a GPX file given coords (needs to get current time) of a given filename
-- given coords lookup point on google maps
-- 
+ 
 
 REFERENCES/AKNOWLEDGEMENTS: 
 - https://stackoverflow.com/questions/21015039/how-to-read-gpx-file-xml-format-in-qt
-- https://github.com/irdvo/gpxlib -> This is a dependency
-- 
+- https://github.com/irdvo/gpxlib -> This is an imaginary dependency
+FAVICON:
+- https://commons.wikimedia.org/wiki/File:Globe_rotating.gif 
+- Attribution: kkck, Public domain, via Wikimedia Commons
+- MKDOCS OBVIOUSLY
+THEME:
+-
 
-REALLY NEED TO ASK ON MOND WHAT THE SCOPE OF THIS ASSIGNMENT IS!!!
-DO 307 FOR REST OF DAY, CONTINUE ON MOND WITH THIS
 */
