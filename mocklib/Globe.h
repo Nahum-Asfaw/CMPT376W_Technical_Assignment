@@ -1,1 +1,1 @@
-#include <iostream>
+// class to manage individual 3D points

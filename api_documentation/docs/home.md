@@ -11,14 +11,14 @@ Before using **mocklib**, ensure you have the following installed:
 [g++](https://code.visualstudio.com/docs/cpp/config-mingw) or another apropriate C++ compiler
 * 
 
-**mocklib** requires gxplib for GPX file methods. Clone the project:
+**mocklib** requires [gxplib](https://github.com/irdvo/gpxlib.git) for GPX file methods. Clone the project:
 
     git clone https://github.com/irdvo/gpxlib.git
 
-And follow the instructions in `README.md`. Move `gpx` to your working directory.
+and follow the instructions in `README.md`. Move `gpx` to your working directory.
 
 ## Installation
-to download **mocklib**, clone the public repository on github to your working directory:
+to download **mocklib**, clone the public repository to your working directory:
 
     git clone https://github.com/Nahum-Asfaw/mocklib.git
 

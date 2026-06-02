@@ -33,8 +33,8 @@ REFERENCES/AKNOWLEDGEMENTS:
 FAVICON:
 - https://commons.wikimedia.org/wiki/File:Globe_rotating.gif 
 - Attribution: kkck, Public domain, via Wikimedia Commons
-- MKDOCS OBVIOUSLY
-THEME:
--
+- https://www.mkdocs.org/:
+THEME
+- https://sourcefoundry.org/cinder/
 
 */
