@@ -1,2 +1,11 @@
+## horizontal and geodetic
+
 ## Map
-A list of all methods for the Map class.
+
+## Globe
+
+## Area
+
+## Volume
+
+## GPX

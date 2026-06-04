@@ -1,7 +1,7 @@
 ## Home
 **mockib** is a fake C++ library for CMPT376W Technical Assignment. It manages geographic points in landitude, longitude, and elevation, using the WGS 84 standard. 
 
-Capable of euclidian distance comparison, elevation comparison, GPX reading and writting, area calculations and much more.
+Capable of  distance comparison, elevation comparison, GPX reading and writting, area calculations and much more.
 
 ### Prerequisites
 Before using **mocklib**, ensure you have the following installed:
