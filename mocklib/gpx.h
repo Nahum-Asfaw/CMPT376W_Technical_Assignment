@@ -6,8 +6,8 @@
 using namespace std;
 
 /*
-Class to manage array of horizontal point values
-that create an area
+Class to manage input output operations with
+GPX (xml) files
 */
 
 class gpx
