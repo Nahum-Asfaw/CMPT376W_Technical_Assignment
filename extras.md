@@ -24,9 +24,11 @@ What else should I have?
 REFERENCES/AKNOWLEDGEMENTS: 
 - https://stackoverflow.com/questions/21015039/how-to-read-gpx-file-xml-format-in-qt
 - https://github.com/irdvo/gpxlib -> This is an imaginary dependency
+
 FAVICON:
 - https://commons.wikimedia.org/wiki/File:Globe_rotating.gif 
 - Attribution: kkck, Public domain, via Wikimedia Commons
 - https://www.mkdocs.org/:
+
 THEME
 - https://sourcefoundry.org/cinder/
