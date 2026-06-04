@@ -10,23 +10,28 @@ Class to manage array of horizontal point values
 that create an area
 */
 
-class GPX
+class gpx
 {
     public:
-        GPX(){
+        gpx(){
             // no constructor
         }
 
-        horizontal* get_horiz_info(char* filename){
-            // gets horizontal point info from GPX file,
-            // returns array in order of coords present in file
-            // else, no return value
+        void* get_info(char *filename){
+            // return coord info from gpx file
+            // if no elevation return as horizontal
+            // return "error: error msg" on failure
         }
 
         void *write_to_xml(char *filename, horizontal *array){
-           // create an xml file, writting the current date, horizontal point info
+           // create an xml file, writting the current date, point info
            // return "error: error msg" on failure
         }
+
+        void *write_geodetic_to_xml(char *filename, geodetic *array){
+           // return "error: error msg" on failure
+        }
+
     private:
         // no private methods
 };

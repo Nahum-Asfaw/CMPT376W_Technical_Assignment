@@ -47,6 +47,7 @@ class Map
         float dist_to_null_island(horizontal k){
             // return distance to null island, where laditude and longitude are both zero.
             // not a real island island, return some error code on failure
+            // joke amongst GIS??
         }
 
     private:
