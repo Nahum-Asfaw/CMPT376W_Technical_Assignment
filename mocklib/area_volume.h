@@ -92,7 +92,7 @@ class Volume
             // false on error
         }
 
-        void write_to_file(char *filename){
+        void write(char *filename){
             // write info in array to filename
             // call gpx.write_to_file
             // return error msg else
