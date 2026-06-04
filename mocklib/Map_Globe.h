@@ -84,14 +84,14 @@ class Globe
             // all return error code on failure
         }
 
-        char *get_ocean_continent(horizontal k){
+        char *get_ocean_continent(geodetic k){
             // returns either ocean or continent the given point is on
             // can return: "Pacific", "Atlantic", "Indian", "Antartic", "Artic"
             // can return: "North America", "South America", "Asia", "Europe", "Africa", "Oceania", "Antartic"
             // else returns "error: error msg" on failure
         }
 
-        int dist_to_mariana_trench(horizontal k){
+        int dist_to_mariana_trench(geodetic k){
             // return distance to mariana trench, lowest point on earth
             // not a real island island, return some error code on failure
         }

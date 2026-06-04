@@ -1,14 +1,13 @@
 #include <iostream>
 #include <cassert>
 #include "horizontal_geodetic.h"
-#include "Map_Globe.h"
 #include "gpx.h"
 
 using namespace std;
 
 /*
-Class to read GPX (xml) files and extract
-horizontal point data
+Class to manage array of horizontal point values
+that create an area
 */
 
 class Area
@@ -28,13 +27,13 @@ class Area
             // return some error code on failure
         }
 
-        int get_perim(){
+        int return_perim(){
             // return the perimiter in km of the area bounded by the horizontal points
             // calls Map.get_distance, in example use this to outline a "path"
             // return some error code on failure
         }
 
-        int get_area(){
+        int return_area(){
             // return in km^2 the area bounded by the horizontal points
             // return error code on failure
         }
@@ -51,7 +50,9 @@ class Area
         }
  
     private:
-        // no private methods
+        horizontal *array;
+        int area;
+        int perim;
 };
 
 /*
@@ -62,7 +63,7 @@ that create a volume
 class Volume
 {
     public:
-        Volume(geodetic *array){
+        Volume(char *filename){
             // call gpx.get_info(filename)
             // int volume = ...;
             // int perim = ...;
@@ -75,11 +76,11 @@ class Volume
             // return some error code on failure
         }
    
-        int get_area(){
+        int return_area(){
             // return error code on failure
         }
 
-        int get_volume(){
+        int return_volume(){
             // return volume in km^3 of the bounded volume
         }
 
@@ -87,17 +88,20 @@ class Volume
             // return true if true, false if not, false on error
         }
 
-        int get_avg_elevation(){
-            // return in km^3 the average elevation of the bounded area
-            // false on error
+        int return_avg_elevation(){
+            // return in km the average elevation of the bounded area
         }
 
-        void write(char *filename){
+        void *write(char *filename){
             // write info in array to filename
             // call gpx.write_to_file
             // return error msg else
         }
 
     private:
+        geodetic *array;
+        int area;
+        int perim;
+        int volume;
         // no private methods
 };
