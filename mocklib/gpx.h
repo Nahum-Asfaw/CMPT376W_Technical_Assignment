@@ -1,1 +1,1 @@
-// class for GPX (xml) file operations,
+// class for GPX (xml) file operations, do paths here

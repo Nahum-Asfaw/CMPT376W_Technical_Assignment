@@ -9,3 +9,5 @@
 * `https://www.mkdocs.org/` used for building the documentation site
 
 * `https://sourcefoundry.org/cinder/` was used to theme this mkdocs project
+
+*  `https://en.wikipedia.org/wiki/Null_Island` for information on 'Null Island'
