@@ -1,7 +1,8 @@
 site_name: mocklib
 nav:
 - Home: home.md
-- References: references.md
+- Structs: structs.md
+- Classes: classes.md
 - Acknowledgements: acknowledgements.md
 
 theme:
