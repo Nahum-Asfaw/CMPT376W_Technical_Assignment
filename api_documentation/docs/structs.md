@@ -1,3 +1,7 @@
+# Structs
+
+Basic data structures to hold longitude, laditude, and elevation values.
+
 ## horizontal 
 
 Defines a `struct` for horizontal datums, where `longitude` is a `float` value from `-180` to `180` and `laditude` is a `float` from `-90` to `90`.

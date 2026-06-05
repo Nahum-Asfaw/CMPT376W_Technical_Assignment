@@ -1,9 +1,10 @@
 site_name: mocklib
 nav:
 - Home: home.md
+- Advanced: advanced.md
 - Structs: structs.md
 - Classes: classes.md
-- Acknowledgements: acknowledgements.md
+- References and Acknowledgements: acknowledgements.md
 
 theme:
   name: null

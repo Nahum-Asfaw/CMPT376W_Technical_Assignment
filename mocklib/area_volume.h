@@ -13,7 +13,7 @@ that create an area
 class Area
 {
     public:
-        Area(char *filename)
+        Area(horizontal *new_array)
         {
             // call gpx.get_info(filename);
             // int area = ...;
@@ -38,6 +38,11 @@ class Area
             // return error code on failure
         }
 
+        horizontal *return_array(){
+            // returns `array`
+            // returns error code on failure
+        }
+
         bool is_point_inside(horizontal k){
             // check wether a given point is inside the area bounded by array
             // return true if true, false if not, false on error
@@ -47,6 +52,11 @@ class Area
             // write info in array to filename
             // call gpx.write_to_file
             // return error msg else
+        }
+
+        void *new_array(horizontal* new_array){
+            // take new horizontal *array, delete old one
+            // return error msg on failure
         }
  
     private:
@@ -63,7 +73,7 @@ that create a volume
 class Volume
 {
     public:
-        Volume(char *filename){
+        Volume(geodetic *new_array){
             // call gpx.get_info(filename)
             // int volume = ...;
             // int perim = ...;
@@ -84,6 +94,11 @@ class Volume
             // return volume in km^3 of the bounded volume
         }
 
+        geodetic *return_array(){
+            // returns `array`
+            // returns error code on failure
+        }
+
         bool is_point_inside(geodetic k){
             // return true if true, false if not, false on error
         }
@@ -98,10 +113,14 @@ class Volume
             // return error msg else
         }
 
+        void *new_array(geodetic* new_array){
+            // take new geodetic*array, delete old one
+            // return error msg on failure
+        }
+
     private:
         geodetic *array;
         int area;
         int perim;
         int volume;
-        // no private methods
 };
